@@ -1,0 +1,8 @@
+
+version: '3'
+services:
+      kafkaconsumercontainer:
+        container_name: kafkaconsumercontainer
+        build:
+          context: ./
+          dockerfile: Dockerfile 
