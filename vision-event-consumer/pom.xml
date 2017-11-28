@@ -22,6 +22,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -42,7 +46,7 @@
 		<dependency>
 			<groupId>com.sgs.vision</groupId>
 			<artifactId>vision-data</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
